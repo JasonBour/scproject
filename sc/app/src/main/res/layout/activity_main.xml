@@ -2,15 +2,30 @@
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:paddingLeft="@dimen/activity_horizontal_margin"
-                android:paddingRight="@dimen/activity_horizontal_margin"
-                android:paddingTop="@dimen/activity_vertical_margin"
-                android:paddingBottom="@dimen/activity_vertical_margin"
-                tools:context=".MainActivity">
+                tools:context=".MainActivity"
+    android:background="#FFFFFF">
 
+
+
+
+    <LinearLayout
+
+
+        android:background="#52C704"
+        android:layout_width="400px"
+        android:layout_height="500px">
    <ImageView
+       android:layout_gravity="center"
        android:src="@drawable/image"
        android:id="@+id/image"
-       android:layout_width="300dp"
-       android:layout_height="500dp"/>
+       android:layout_width="200px"
+       android:layout_height="300px"/>
+
+
+    </LinearLayout>
+<ImageView
+    android:background="@drawable/bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"/>
+
 </RelativeLayout>

@@ -64,17 +64,17 @@ public class MainActivity extends Activity {
 						if(x<0){
 							x=0;
 							z=image.getWidth();
-						}else if(z>400){
-							x=400-image.getWidth();
-							z= 400;
+						}else if(z>700){
+							x=700-image.getWidth();
+							z= 700;
 						}
 
 						if(y<0){
 							y=0;
 							k= image.getHeight();
-						}else if (k>500) {
-							k=500;
-							y=500-image.getHeight();
+						}else if (k>800) {
+							k=800;
+							y=800-image.getHeight();
 						}
 
 						Log.i("app",x+"========="+y+"========="+z+"============="+k);

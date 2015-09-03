@@ -14,12 +14,19 @@
        android:background="@drawable/im"
        android:id="@+id/image"
 
-        android:layout_width="600px"
-        android:layout_height="800px"
+        android:layout_width="500px"
+        android:layout_height="759px"
        />
-
     <ImageView
-        android:background="@drawable/photo2"
+        android:layout_marginTop="500px"
+        android:layout_marginLeft="200px"
+        android:background="@drawable/im"
+        android:id="@+id/image2"
+        android:layout_width="500px"
+        android:layout_height="749px"/>
+    <ImageView
+        android:id="@+id/background"
+
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         />
@@ -42,6 +49,7 @@
 
 
     <ImageView
+        android:layout_below="@+id/background"
         android:id="@+id/addMyPhoto"
         android:layout_alignTop="@+id/textView"
         android:src="@drawable/btn_album_edit"
